@@ -1,0 +1,1 @@
+echo 'alert tcp any any -> any 80 (msg:"HTTP request detected"; sid:1001;)' | sudo tee /etc/snort/rules/local.rules
